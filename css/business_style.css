@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+.pc_br{display: none;}
+
+/* cont3, cont4 common */
+.cont3 h2, .cont4 h2{font-size: 4.66666vw; margin-bottom: 4.66666vw; font-weight: 500;}
+
+/* cont3 */
+.cont3 .sub_title, .cont4 .sub_title{font-size: 6.66666vw;}
+.cont3 .img_slide > ul{display: block;}
+.cont3 .img_slide .business_cont3_img{display: none;}
+
+/* business_cont2 cont4 */
+.cont4 h2{color: #45009e;}
+.cont4 .sub_title{color: #45009e;}
+.cont4.business_cont2{background-image: url(../images/Mobile/business_img/back2.jpg);}
+
+.cont4.business_cont2 .cont4_img1{margin-bottom: 6.33333vw;}
+
+/* business_cont3 cont4 */
+.cont4.business_cont3{background-image: url(../images/Mobile/business_img/back3.png);}
+
+.cont4.business_cont3 h2{color: #fff;}
+.cont4.business_cont3 .sub_title{color: #fff;}
+.cont4.business_cont3 .cont4_txt{color: #fff; font-weight: 400;}
+
+/* business_cont4 cont4 */
+.cont4.business_cont4{background-image: url(../images/Mobile/business_img/back4.png);}
+.cont4.business_cont4 h2{color: #45009e;}
+.cont4.business_cont4 .sub_title{color: #45009e;}
+
+/* =================== media query start =================== */
+
+@media screen and (min-width: 768px) {
+    /* cont3 */
+    .cont3 .img_slide{height: 44.33333vw;}
+    .cont3 .img_slide > ul{display: none;}
+    .cont3 .img_slide .business_cont3_img{display: block;}
+}
+
+
+@media screen and (min-width: 1200px) {
+    .pc_br{display: block;}
+
+    .gnb ul{justify-content: flex-end;}
+
+    /* cont3 */
+    .cont3{padding-bottom: 140px;}
+    .cont3 h2, .cont4 h2{font-size: 30px; padding-top: 120px; margin-bottom: 26px;}
+    .cont3 .sub_title, .cont4 .sub_title{font-size: 40px;}
+    
+    .cont3 .cont3_txt{margin-bottom: 32px;}
+    .cont3 .img_slide{height: 510px;}
+
+    /* business_cont2 cont4 */
+    .cont4{padding-bottom: 100px;}
+    .cont4.business_cont2{background-image: url(../images/Web/business_img/back2.jpg);}
+    .cont4.business_cont2 .cont4_img2_pc{width: 1000px; margin: 0 auto 40px;}
+    
+    /* business_cont3 cont4 */
+    .cont4.business_cont3{background-image: url(../images/Web/business_img/back3.png);}
+    .cont4.business_cont3 .cont4_img2_pc{margin-bottom: 60px;}
+    .cont3 .img_slide .business_cont3_img{display: block; padding: 0 100px;}
+
+    /* business_cont4 cont4 */
+    .cont4.business_cont4{background-image: url(../images/Web/business_img/back4.png); padding-bottom: 60px;}
+    .cont4.business_cont4 .cont4_img2_pc{margin-bottom: 40px;}
+}

@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+#wrap{}
+
+
+
+/* --- cont1 --- */
+.cont1{width: 100%; background: url(../images/en_images/mobile/main/back1.jpg) no-repeat 0 -16vw/ cover; padding-top: 93vw; padding-bottom: 8.6vw;}
+
+.cont1 h2{padding-top: 5.33333vw; padding-left: 8.33333vw; margin-bottom: 3vw;}
+.cont1 h2 span{font-size: 8.4vw; margin-bottom: 1vw; color: #5b00b8; display: inline-block; font-family: 'Jost', sans-serif;}
+
+.cont1 h2 span:nth-of-type(3){display: block;}
+
+.cont1 p{padding-left: 8.33333vw;}
+.cont1 p span{font-size: 2.8vw; margin-bottom: 1.66666vw; display: block;}
+
+
+
+
+
+/* --- cont6 --- */
+.cont6{width: 100%; background: url(../images/Mobile/back6.png) no-repeat 0 0/ cover; padding-bottom: 13.33333vw;}
+.cont6 h2{margin-bottom: 10vw;}
+
+.cont6 .roadmap_wrap{width: 90%; margin: 0 auto; display: flex; justify-content: space-between;}
+
+.cont6 .roadmap_wrap .point{margin-left: 20vw; margin-top: 0.83333vw;}
+.cont6 .roadmap_wrap .point span{display: block; width: 12px; height: 12px; border-radius: 50%; background: #000; position: relative;}
+
+.cont6 .roadmap_wrap .point span:nth-of-type(1){margin-bottom: 48.83333vw;}
+.cont6 .roadmap_wrap .point span:nth-of-type(2){margin-bottom: 52.66666vw;}
+.cont6 .roadmap_wrap .point span:nth-of-type(3){margin-bottom: 30.66666vw;}
+
+.cont6 .roadmap_wrap .point span::after{content: ""; display: block; width: 2px; height: 54.66666vw; background: #000; position: absolute; top: 0; left: 50%; transform: translateX(-50%);}
+
+.cont6 .roadmap_wrap .point span:nth-of-type(1)::after{height: 51.66666vw;}
+.cont6 .roadmap_wrap .point span:nth-of-type(2)::after{height: 54.66666vw;}
+.cont6 .roadmap_wrap .point span:nth-of-type(3)::after{height: 33vw;}
+
+.cont6 .roadmap_wrap .point span::before{content: ""; display: block; width: 11.83333vw; height: 1px; border-bottom: 2px dashed #000; position: absolute; top: 50%; left: 4px; transform: translateY(-50%);}
+
+.cont6 .roadmap_wrap .point span:last-child:after{display: none;}
+
+.cont6 .roadmap_wrap ul{width: 56vw; position: relative;}
+
+
+.cont6 .roadmap_wrap li .roadmap_day{font-size: 4vw; color: #ea2788; font-family: 'Jost', sans-serif; font-weight: 700; margin-bottom: 1.33333vw;}
+
+
+.cont6 .roadmap_wrap li span{display: block; font-size: 2.4vw; margin-bottom: 1.73333vw; font-weight: 600; line-height: 4vw;}
+
+
+
+
+/* --- cont7 --- */
+.cont7{width: 100%; background: url(../images/Mobile/back7.png) no-repeat 0 0/ 168% auto; padding-bottom: 14.66666vw; }
+
+.cont7 h2{padding-top: 18.33333vw; font-size: 6.66666vw; text-align: center; font-family: 'Jost', sans-serif; margin-bottom: 5.66666vw; font-weight: 500;}
+
+.cont7 .form_wrap{width: 87.66666vw; height: 78.33333vw; background: #fff; margin: 0 auto; box-shadow: 4px 4px 6px #333; padding: 8.33333vw 6.66666vw; position: relative;}
+
+.cont7 .form_wrap form > div{width: 100%; height: 7.33333vw; margin-bottom: 6.66666vw; display: flex; justify-content: space-between; }
+
+.cont7 .form_wrap form > div:last-child{margin-bottom: 0;}
+
+.cont7 .form_wrap label{display: inline-block; font-size: 3.33333vw; font-family: 'Jost', sans-serif; font-weight: 700; width: 13.33333vw; height: 7.33333vw; line-height: 7.33333vw; margin-right: 2.66666vw;}
+
+.cont7 .phone_input input, .cont7 .email_input input{width: 58.33333vw;}
+.cont7 .name_inut label{margin-right: 2vw;}
+
+.cont7 .form_wrap input{border: 1px solid #c169cb; height: 7.33333vw; padding: 0 1.66666vw; box-sizing: border-box;}
+#firstName{width: 21.66666vw;}
+#lastName{width: 35.66666vw;}
+
+
+.cont7 .form_wrap .textarea_wrap{display: flex;}
+.cont7 .form_wrap textarea{border: 1px solid #c169cb; width: 58.33333vw; height: 21.66666vw; padding: 1.66666vw;}
+
+.cont7 .form_wrap .button_wrap{background: #8d3da9; width: 56.66666vw; height: 8.33333vw; position: absolute; top: 64.66666vw; left: 22.7vw;}
+.cont7 .form_wrap button{color: #fff; font-size: 3vw; background: url(../images/Mobile/message_icon.png) no-repeat 10vw center /6.66666vw auto; width: 100%; height: 100%; cursor: pointer;}
+
+ 
+
+/* =================== media query start =================== */
+
+@media screen and (min-width: 601px) {
+
+    /* ===== container ===== */
+
+    #container{padding-top: 90px;}
+    /* --- cont1 --- */
+    .cont1{background-image: url(../images/Tablet/back1.jpg); background-position: 0 -13vw; padding-top: 43vw; padding-bottom: 16.6vw;}
+
+    .cont1 h2 span{font-size: 6.4vw;}
+    .cont1 p span{font-size: 2.3vw;}
+
+    /* .cont1 h2{padding-top: 80px; padding-left: 50px;}
+    
+    .cont1 h2 span{font-size: 36px; margin-bottom: 24px;}
+
+    .cont1 p{padding-left: 50px;}
+    .cont1 p span{font-size: 20px; margin-bottom: 10px;} */
+
+    /* --- cont2 --- */
+    .cont2{background-image: url(../images/Tablet/back2.jpg);}
+    /* .cont2 h2{padding-top: 110px; font-size: 40px; margin-bottom: 34px;}
+    .cont2 .sub_title{font-size: 28px; margin-bottom: 20px;}
+
+    .cont2 .cont2_txt{font-size: 16px; line-height: 26px; margin-bottom: 40px;}
+
+    .cont2 .cont2_img1{height: 410px; margin-bottom: 90px;}
+
+    .cont2 .cont2_img2{height: 238px; padding-bottom: 84px;} */
+
+    /* --- cont3 ---d */
+    
+    /* .cont3{padding-bottom: 100px;}
+    .cont3_inner{}
+
+    .cont3 .cont3_txt{font-size: 16px; line-height: 26px; margin-bottom: 40px;}
+
+    .cont3 .img_slide{height: 410px; padding: 0 60px; margin-bottom: 50px;}
+
+    .cont3 .img_slide ul{height: 410px;}
+    .cont3 .img_slide li{width: 410px; margin-right: 20px;}
+
+    .cont3 .more_btn{width: 180px; height: 44px; border-radius: 40px; line-height: 44px; font-size: 20px;}
+ */
+
+    /* --- cont4 --- */
+/* 
+    .cont4{padding-bottom: 24px;}
+
+    .cont4 .cont4_img1{width: 540px; height: auto; display: block; margin: 0 auto; margin-bottom: 90px;}
+
+    .cont4 .cont4_img2{width: 540px; height: auto; display: block; margin: 0 auto;} */
+
+    /* cont5 */
+
+    /* .cont5 .token_info{margin-bottom: 6.66666vw; }
+    .cont5 .token_info span{display: block; color: #333; text-align: center; font-size: 2.66666vw; line-height: 4.33333vw; font-weight: 700; font-family: 'Jost', sans-serif;} */
+
+    /* .cont5 .chart_wrap{width: 360px; height: 360px; display: block; margin: 0 auto 40px; position: relative;}
+
+    .cont5 .chart_wrap .chart_title{font-size: 4.6vw; line-height: 5.33333vw;}
+
+    .cont5 .chart_text_wrap{width: 436px; margin-bottom: 40px;}
+    .cont5 .chart_txt1 li, .cont5 .chart_txt2 li{font-size: 3.36vw; line-height: 4.33333vw;} */
+
+    /* --- cont6 --- */
+    /* .cont6{padding-bottom: 14vw;}
+    .cont6 h2{margin-bottom: 10vw;}
+
+    .cont6 .roadmap_wrap{width: 90%;}
+
+    .cont6 .roadmap_wrap .point{margin-left: 120px; margin-top: 5px;}
+    .cont6 .roadmap_wrap .point span{width: 12px; height: 12px;}
+
+    .cont6 .roadmap_wrap .point span:nth-of-type(1){margin-bottom: 293px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(2){margin-bottom: 316px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(3){margin-bottom: 184px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(3):after{height: 192px;}
+
+    .cont6 .roadmap_wrap .point span::after{width: 2px; height: 328px; top: 10px; left: 50%; transform: translateX(-50%);}
+    .cont6 .roadmap_wrap .point span::before{width: 71px; height: 1px; top: 50%; left: 4px; transform: translateY(-50%);}
+
+    .cont6 .roadmap_wrap ul{width: 336px;}
+
+    .cont6 .roadmap_wrap li{margin-bottom: 60px;}
+
+    .cont6 .roadmap_wrap li .roadmap_day{font-size: 4vw; margin-bottom: 3.33333vw;}
+
+
+    .cont6 .roadmap_wrap li span{font-size: 3vw; margin-bottom: 3.33333vw;  line-height: 4vw;} */
+
+
+    /* --- cont7 --- */
+    /* .cont7{width: 100%; background: url(../images/Mobile/back7.png) no-repeat 0 0/ 100% auto; padding-bottom: 88px;}
+
+    .cont7 h2{padding-top: 18.33333vw; font-size: 6.66666vw; text-align: center; font-family: 'Jost', sans-serif; margin-bottom: 5.66666vw;}
+
+    .cont7 .form_wrap{width: 526px; height: 470px; background: #fff; margin: 0 auto; box-shadow: 4px 4px 6px #333; padding: 50px 40px; position: relative;}
+
+    .cont7 .form_wrap form > div{width: 100%; height: 44px; margin-bottom: 40px; display: flex; justify-content: space-between; }
+
+    .cont7 .form_wrap form > div:last-child{margin-bottom: 0;}
+
+    .cont7 .form_wrap label{display: inline-block; font-size: 3.33333vw; font-family: 'Jost', sans-serif; font-weight: 700; width: 80px; height: 44px; line-height: 44px; margin-right: 16px;}
+
+    .cont7 .phone_input input, .cont7 .email_input input{width: 350px;}
+    .cont7 .name_inut label{margin-right: 0;}
+
+    .cont7 .form_wrap input{border: 1px solid #c169cb; height: 44px; padding: 0 10px;}
+    #firstName{width: 130px;}
+
+    .cont7 .form_wrap .textarea_wrap{display: flex;}
+    .cont7 .form_wrap textarea{border: 1px solid #c169cb; width: 350px; height: 130px; padding: 10px;}
+
+    .cont7 .form_wrap button{width: 340px; height: 50px; background: #8d3da9; color: #fff; font-size: 18px; position: absolute; top: 388px; left: 131px;}
+    #footer{} */
+
+}
+
+
+
+@media screen and (min-width:992px) {
+    .cont6 .roadmap_wrap .point span:nth-of-type(3)::after{height: 32vw;}
+    
+    .cont6 .roadmap_wrap li:nth-of-type(1){top: -1vw;}
+    .cont6 .roadmap_wrap li:nth-of-type(2){top: 49vw;}
+    .cont6 .roadmap_wrap li:nth-of-type(3){top: 103vw;}
+    .cont6 .roadmap_wrap li:nth-of-type(4){top: 135vw;}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+    /* container */
+    #container{width: 100%;}
+    /* cont1 */
+    .cont1{background-image: url(../images/Web/back1.jpg); background-size: 1920px auto; padding-top: 0; background-position: center -132px; padding-bottom: 210px;}
+    .cont1 .cont1_inner{width: 1200px; margin: 0 auto; padding-left: 14px;}
+
+    .cont1 h2{padding-top: 424px; padding-left: 0; margin-bottom: 18px;}
+    .cont1 h2 span{font-size: 53px; margin-bottom: 4px;}
+    .cont1 h2 span:nth-of-type(1){display: block;}
+    .cont1 h2 span:nth-of-type(2),
+    .cont1 h2 span:nth-of-type(3){margin-right: 18px; display: inline-block;}
+    .cont1 h2 span:last-child{margin-bottom: 0; display: block;}
+
+    .cont1 p{padding-left: 0;}
+    .cont1 p span{font-size: 17px; font-weight: 600; margin-bottom: 14px; letter-spacing: 1.4px; line-height: 32px;}
+    .cont1 p span:nth-of-type(1),
+    .cont1 p span:nth-of-type(2),
+    .cont1 p span:nth-of-type(3),
+    .cont1 p span:nth-of-type(4),
+    .cont1 p span:nth-of-type(5),
+    .cont1 p span:nth-of-type(6){display: inline;}
+    
+    /* cont2 */
+    .cont2{background-image: url(../images/Web/back2.jpg); background-size: 1920px auto; padding-top: 0; background-position: center 0; padding-bottom: 220px;}
+
+    .cont2 .cont2_inner{width: 1200px; margin: 0 auto;}
+    
+    
+    .cont4 .cont4_txt{letter-spacing: -0.1px;}
+
+
+    
+
+
+    /* cont6 */
+    .cont6{background-image: url(../images/Web/back6.png); background-size: 1920px auto; background-position: center 0; padding-bottom: 260px;}
+    
+    .cont6 h2{margin-bottom: 70px;}
+
+    .cont6 .cont6_inner{width: 1200px; margin: 0 auto; position: relative; height: 900px;}
+
+    .cont6 .roadmap_wrap .point{margin-left: 0; position: absolute; top: 324px; left: 50%;transform: translateX(-50%); margin-top: 0;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(1){margin-bottom: 194px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(2){margin-bottom: 238px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(3){margin-bottom: 156px;}
+
+    .cont6 .roadmap_wrap .point span:nth-of-type(1)::after{height: 210px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(2)::after{height: 254px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(3)::after{height: 322px;}
+    
+    .cont6 .roadmap_wrap .point span::before{width: 100px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(2):before{left: -98px;}
+    .cont6 .roadmap_wrap .point span:nth-of-type(4):before{left: -98px;}
+
+    .cont6 .roadmap_wrap ul{width: 1200px; position: relative;}
+    .cont6 .roadmap_wrap li{position: absolute;}
+    .cont6 .roadmap_wrap li:nth-of-type(1){top: 49px; left: 654px;}
+    .cont6 .roadmap_wrap li:nth-of-type(2){top: 254px; left: 36px;}
+    .cont6 .roadmap_wrap li:nth-of-type(3){top: 504px; left: 654px;}
+    .cont6 .roadmap_wrap li:nth-of-type(4){top: 673px; left: 182px;}
+
+    .cont6 .roadmap_wrap li .roadmap_day{font-size: 24px; margin-bottom: 20px;}
+
+    .cont6 .roadmap_wrap li span{font-size: 16px; margin-bottom: 16px; line-height: 1.5;}
+    .cont6 .roadmap_wrap li:nth-of-type(2){text-align: right;}    
+    .cont6 .roadmap_wrap li:nth-of-type(4){text-align: right;}    
+
+    /* cont7 */
+    .cont7{background-image: url(../images/Web/back7.png); background-size: 1920px auto; background-position: center 0; padding-bottom: 140px;}
+    .cont7 .cont7_inner{width: 1200px; margin: 0 auto;}
+    .cont7 h2{padding-top: 150px; margin-bottom: 50px; font-size: 50px;}
+
+    .cont7 .form_wrap{width: 966px; height: 576px; margin: 0 auto; padding: 56px 156px;}
+
+    .cont7 .form_wrap form > div{height: 44px; margin-bottom: 44px;}
+
+    .cont7 .form_wrap label{font-size: 20px; line-height: 44px; width: 120px; margin-right: 54px; width: 120px;}
+    .cont7 .form_wrap input{height: 44px; padding: 0 20px; width: 850px;}
+    
+    /* .cont7 .form_wrap .email_input label{margin-right: 65px;} */
+    #firstName{width: 180px; margin-right: 20px;}
+    #lastName{width: 518px;}
+
+    .cont7 .form_wrap textarea{width: 636px; height: 140px; padding: 12px}
+    .cont7 .form_wrap .textarea_wrap label{margin-right: 33px;}
+    
+    .cont7 .form_wrap .button_wrap{width: 376px; height: 50px; position: absolute; top: 470px; left: 50%; transform: translateX(-50%);}
+    .cont7 .form_wrap button{width: 376px; height: 50px; font-size: 22px; line-height: 50px; background-size: 30px auto; background-position: 78px center;}
+}

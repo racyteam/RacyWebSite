@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.cont1_inner h2{opacity: 0; transform: translateY(10%); transition: all 1s;}
+.cont1_inner p{opacity: 0; transform: translateY(10%); transition: all 1s;}
+
+
+
+
+.cont2 h2, .cont3 h2, .cont4 h2, .cont5 h2, .cont6 h2{opacity: 0; transform: translateY(10%); transition: all 1s;}
+
+
+.sub_title{opacity: 0; transform: translateY(100%); transition: all 1s;}
+
+.cont2_txt, .cont3_txt, .cont4_txt{opacity: 0; transform: translateY(50%); transition: all 2s;}
+.cont2_img1, .cont2_img2{opacity: 0; transform: translateY(10%); transition: all 3s;}
+.cont4_img1, .cont4_img2{opacity: 0; transform: translateY(10%); transition: all 3s;}
+.cont2_img1_pc, .cont2_img2_pc{opacity: 0; transform: translateY(10%); transition: all 3s;}
+.cont4_img1_pc, .cont4_img2_pc{opacity: 0; transform: translateY(10%); transition: all 3s;}
+
+.img_slide{opacity: 0; transform: translateY(20%); transition: all 2s;}
+
+.chart_wrap{opacity: 0; transition: all 2s;}
+.token_in{opacity: 0; transform: translateX(50%); transition: all 2s;}
+.chart_text_wrap{opacity: 0; transform: translateX(-50%); transition: all 2s;}
+
+.roadmap_wrap .point span{opacity: 0; transition: all 2s; margin: 0 auto;}
+ 
+.cont6 .roadmap_wrap .point{overflow: hidden; height: 0; padding: 0;}
+.cont6 .roadmap_wrap ul li p{opacity: 0;}
+
+.cont6 .roadmap_wrap ul li span{opacity: 0; transform: translateY(50%);}

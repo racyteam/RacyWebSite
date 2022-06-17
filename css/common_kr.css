@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{font-family: 'Noto Sans KR', sans-serif; font-weight: 300;}
+
+/* ========== cont2 ========== */
+.cont2 .cont2_info .info_text{letter-spacing: 0; font-family: 'Noto Sans KR', sans-serif;}
+.cont2 .info_list p .list_title{margin-bottom: 2.1875vw;}
+.cont2 .info_list p .list_text{letter-spacing: 0; line-height: 1.5; font-family: 'Noto Sans KR', sans-serif; word-break: break-all;}
+
+
+/* ========== cont3 ========== */
+.cont3 .text_wrap{letter-spacing: 0; word-break: break-all;}
+
+
+/* ========== cont4 ========== */
+.cont4 .title_wrap .info_text{text-align: justify; letter-spacing: 0; word-break: break-all;}
+
+@media screen and (min-width: 768px) {
+    .content1 ul li:nth-of-type(2) .dot_icon{top: 50% !important;}
+
+}
+
+@media screen and (min-width: 1200px) {
+/* ========== cont2 ========== */
+    .cont2 .info_list p .list_title{margin-bottom: 24px;}
+    .cont2 .info_list li:nth-of-type(2) p .list_text{letter-spacing: 0;}
+
+}

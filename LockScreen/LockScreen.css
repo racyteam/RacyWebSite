@@ -1,0 +1,40 @@
+.zloader {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 99999;
+    opacity: 0.5;
+    background: black;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.zloader > img {
+    width: 100px;
+}
+
+.zloader.hidden {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.zloader.show {
+    animation: fadeIn 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 0.5;
+        visibility: visible;
+    }
+}

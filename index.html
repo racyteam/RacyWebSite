@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racy</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/en_style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/notice.css" />
+    <link href="LockScreen/LockScreen.css" rel="stylesheet" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/chart.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- notice -->
+      <!-- <div class="notice_wrap">
+        <p class="notice_head">NOTICE</p>
+        <div class="notice_inner">
+          <p class="notice_sbutitle">Result of Airdrop Event</p>
+          <div class="input_wrap">
+            <input type="text" id="walletaddress" placeholder="Write your wallet address" />
+            <button class="notice_submit_btn" onclick="GetSendToken()" type="button">Submit</button>
+          </div>
+          <div class="score_wrap">
+            <p class="score_title">
+              <span>Distributed Amount</span>
+              <span class="num">000</span>
+              <span>RACY</span>
+            </p>
+          </div>
+          <button type="button" class="close_btn">Close</button>
+        </div>
+      </div> -->
+      <address class="sns">
+        <ul>
+          <li>
+            <a href="https://twitter.com/RacyOfficial">
+              <img src="./images/icon/twitter_icon.svg" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/racy_official">
+              <img src="./images/icon/telegram_icon.svg" alt="telegram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@racyofficial0">
+              <img src="./images/icon/medium_icon.svg" alt="medium" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/RACY-104583975387133">
+              <img src="./images/icon/facebook_icon.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/racy_official_/">
+              <img src="./images/icon/insta_icon.svg" alt="instagram" />
+            </a>
+          </li>
+        </ul>
+      </address>
+      <header id="header">
+        <div class="headerIn">
+          <button class="side_btn"></button>
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="images/Mobile/Racy_logo.svg" alt="Racy" />
+            </a>
+          </h1>
+          <nav class="gnb">
+            <ul>
+              <li><a href="#">PLATFORM</a></li>
+              <li><a href="#">BUSINESS</a></li>
+              <li><a href="#">ECOSYSTEM</a></li>
+              <li><a href="#">TOKEN</a></li>
+              <li><a href="#">TEAM</a></li>
+              <li><a href="#">ROADMAP</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="whitepapers">
+            <a>WHITEPAPERS</a>
+            <ul>
+              <li><a href="RACY_Platform_White_Paper_ver_eng.pdf">ENGLISH</a></li>
+              <li><a href="RACY_Platform_White_Paper_ver_kor.pdf">KOREAN</a></li>
+            </ul>
+          </div>
+          <div class="lang">
+            <ul>
+              <li class="active"><a href="index.html">EN</a></li>
+              <li><a href="ko_index.html">KO</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div id="container">
+        <section class="cont1">
+          <div class="cont1_inner">
+            <h2>
+              <span>SOCIAL</span>
+              <span>MEDIA</span>
+              <span>CONTENT</span>
+              <span>PLATFORM</span>
+            </h2>
+            <p>
+              <span>A social media content platform</span>
+              <span>
+                where<br class="pc_br" />
+                creators & production companies
+              </span>
+              <span>
+                freely create<br class="pc_br" />
+                their own videos,
+              </span>
+              <span>photos, goods, etc.<br class="pc_br" /></span>
+              <span class="eng">Blockchain based platform &</span>
+              <span class="eng">RACY Token</span>
+            </p>
+          </div>
+        </section>
+        <section class="cont2">
+          <div class="cont2_inner">
+            <h2>PLATFORM</h2>
+            <p class="sub_title no1">Racy Platform</p>
+            <span class="cont2_txt no1">
+              The RACY platform is a social media content streaming platform where creators communicate with fans by uploading images and videos through various business models such as fashion, games,
+              travel, live streaming, and commerce. Through this, creators, sellers, advertisers, etc. can create accounts and sell their own content, influencer contracts, model connection, product
+              sales, etc., and users can purchase desired services and products.
+            </span>
+            <img class="cont2_img1" src="images/en_images/Mobile/main/Platform_img1.png" alt="platformimg1" />
+            <img class="cont2_img1_pc" src="images/en_images/Web/main/Platform_img1.png" alt="platformimg1" />
+            <p class="sub_title no2">Platform Structure</p>
+            <span class="cont2_txt no2">
+              The platform has a structure that automatically pays and settles by connecting four business models through each smart contract.All of this is done through smart contracts and the
+              platform token RACY is used. In addition, each business model can manage its own account, content, and revenue by each management system. In the platform, creators' contents can be sold
+              as NFTs through easy NFT creation by linking with the NFT Market of a separate business model.
+            </span>
+            <img class="cont2_img2" src="images/en_images/Mobile/main/Platform_img2.png" alt="platformimg2" />
+            <img class="cont2_img2_pc" src="images/en_images/Web/main/Platform_img2.png" alt="platformimg2" />
+          </div>
+        </section>
+        <section class="cont3" id="cont3">
+          <div class="cont3_inner">
+            <h2>BUSINESS</h2>
+            <p class="sub_title">Business1. Creator Social Media</p>
+            <span class="cont3_txt">
+              In Creator social media, creators, influencers, planners, producers, etc. create an account on the RACY platform to create their own social media. This allows them to post their own
+              content in the form of live streaming, recorded streaming, photos, and blogs, and communicate with their fans through chat windows and comments. In Creator social media, creators can
+              communicate with fans by creating content in a total of four forms as described above, and can sell their own content, corporate promotion, and product sales.
+            </span>
+            <div class="img_slide">
+              <ul>
+                <li>
+                  <img src="images/en_images/Web/main/Business_img1.png" alt="business slide1" />
+                </li>
+                <li>
+                  <img src="images/en_images/Web/main/Business_img2.png" alt="business slide2" />
+                </li>
+                <li>
+                  <img src="images/en_images/Web/main/Business_img3.png" alt="business slide3" />
+                </li>
+                <li>
+                  <img src="images/en_images/Web/main/Business_img4.png" alt="business slide4" />
+                </li>
+              </ul>
+              <div class="business_cont3_img">
+                <img src="images/en_images/Web/main/Business_img.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <a class="more_btn" href="en_business_index.html">+ More</a>
+        </section>
+        <section class="cont4">
+          <div class="cont4_inner">
+            <h2>TOKEN ECOSYSTEM</h2>
+            <p class="sub_title no1">Sponsoring System</p>
+            <span class="cont4_txt no1">
+              The RACY platform provides a system where users support creators, strengthening the bond between creators and fans, and providing a system that benefits each other.
+            </span>
+            <img class="cont4_img1" src="images/en_images/Mobile/main/Token_Ecosystem_img1.png" alt="tokenEcosustemImages" />
+            <img class="cont4_img1_pc" src="images/en_images/Web/main/Token_Ecosystem_img1.png" alt="tokenEcosustemImages" />
+            <p class="sub_title no2">Liquidity Mining system</p>
+            <span class="cont4_txt no2">
+              As a part of marketing, the liquidity mining system pays RACY to the exchange for a certain period through a contract with the exchange where RACY is listed, and airdrops RACY as a
+              reward to users with high trading volume.When a user applies for Liquidity Mining, they are entitled to receive airdrops, and at this time, they and their creators receive RACY by
+              distributing them according to a certain ratio.
+            </span>
+            <img class="cont4_img2" src="images/en_images/Mobile/main/Token_Ecosystem_img2.png" alt="tokenEcosustemImages2" />
+            <img class="cont4_img2_pc" src="images/en_images/Web/main/Token_Ecosystem_img2.png" alt="tokenEcosustemImage2" />
+          </div>
+        </section>
+        <section class="cont5">
+          <div class="cont5_inner">
+            <h2>TOKEN</h2>
+            <div class="flex_wrap">
+              <div class="token_in">
+                <img class="token_img" src="images/Mobile/Racy_token.png" alt="token img1" />
+                <p class="token_info">
+                  <span>Token Name : RACY</span>
+                  <span>Token Type : ERC-20</span>
+                  <span>Smart Contract : </span>
+                  <span>Total Issuance : 1,000,000,000</span>
+                </p>
+              </div>
+              <div class="chart_wrap">
+                <!-- <img src="images/Mobile/Token_img2.png" alt="token img2"> -->
+                <canvas id="chart"></canvas>
+                <span class="chart_title">TOKEN<br />DISTRIBUTION</span>
+              </div>
+              <div class="chart_text_wrap">
+                <ul class="chart_txt1">
+                  <li>
+                    Foundation
+                    <span>20%</span>
+                  </li>
+                  <li>
+                    Advisor
+                    <span>5%</span>
+                  </li>
+                  <li>
+                    Team
+                    <span>10%</span>
+                  </li>
+                  <li>
+                    Operation
+                    <span>20%</span>
+                  </li>
+                </ul>
+                <ul class="chart_txt2">
+                  <li>
+                    R&D
+                    <span>5%</span>
+                  </li>
+                  <li>
+                    Liquidity Supply
+                    <span>5%</span>
+                  </li>
+                  <li>
+                    Marketing / Reward
+                    <span>25%</span>
+                  </li>
+                  <li>
+                    Private Sale
+                    <span>8%</span>
+                  </li>
+                  <li>
+                    Seed Sale
+                    <span>2%</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a class="more_btn" href="en_token_index.html">+ More</a>
+        </section>
+        <section class="team">
+          <div class="team_inner">
+            <h2>TEAM</h2>
+            <div class="team_list">
+              <ul>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/soenjalammers/">
+                      <img src="images/team_img/Soenja_Lammers.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Soenja<br />Lammers</p>
+                  <p class="position">CEO</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a
+                      href="https://www.linkedin.com/in/mehmet-akif-cinko-9b8331237
+                    "
+                    >
+                      <img src="images/team_img/Mehmet_Akif_Cinko.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">
+                    Mehmet<br />
+                    Akif Cinko
+                  </p>
+                  <p class="position">CTO</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/abcdaleyz/">
+                      <img src="images/team_img/Dale_D._Yoon.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Dale<br />D. Yoon</p>
+                  <p class="position">Creative Team<br />Leader</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/darya-ivanova-234b2b1a0/?locale=en_US">
+                      <img src="images/team_img/Darya_Ivanova.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Darya<br />Ivanova</p>
+                  <p class="position">Creative Team</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/mprikhodko/">
+                      <img src="images/team_img/Marina_Prikhodko.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Marina<br />Prikhodko</p>
+                  <p class="position">Development Team</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/akristi/">
+                      <img src="images/team_img/Christina_Timoshenko.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Christina<br />Timoshenko</p>
+                  <p class="position">Dev. Team<br />Leader</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/nikleshko/">
+                      <img src="images/team_img/Nikolai_Oleshko.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Nikolai<br />Oleshko</p>
+                  <p class="position">Developer</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/denkolmakov/">
+                      <img src="images/team_img/Denis_Kolmakov.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Denis<br />Kolmakov</p>
+                  <p class="position">Developer</p>
+                </li>
+              </ul>
+            </div>
+            <h2>ADVISOR</h2>
+            <div class="advisor_list">
+              <ul>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/doron-segev/">
+                      <img src="images/team_img/Doron_Segev.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Doron<br />Segev</p>
+                  <p class="position">Global Strategic<br />Partnership</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/jamiestepanek/">
+                      <img src="images/team_img/Jamie_Stepanek.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Jamie<br />Stepanek</p>
+                  <p class="position">Business<br />Development</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/jieunyi/">
+                      <img src="images/team_img/Jieun_Segal.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Jieun<br />Segal</p>
+                  <p class="position">Digital Marketing &<br />Sales</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/gabegreenberg/">
+                      <img src="images/team_img/Gabe_Greenberg.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Gabe<br />Greenberg</p>
+                  <p class="position">Advertisement,<br />Media and <br />Marketing</p>
+                </li>
+                <li>
+                  <div class="pe_img">
+                    <a href="https://www.linkedin.com/in/ameliazheng/">
+                      <img src="images/team_img/Amelia_ZHENG.png" alt="" />
+                    </a>
+                  </div>
+                  <p class="team_name">Amelia<br />ZHENG</p>
+                  <p class="position">CORPORATE FX &<br />Global Payment</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="cont6">
+          <div class="cont6_inner">
+            <h2>ROADMAP</h2>
+            <div class="roadmap_wrap">
+              <div class="point">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p class="point2">
+                <img src="images/Mobile/line_mobi.png" alt="" />
+              </p>
+              <ul>
+                <li>
+                  <p class="roadmap_day">2021. 4Q</p>
+                  <span> Start of RACY Project </span>
+                  <span> Marketing community opened </span>
+                  <span> Completion of RCY Platform White Paper </span>
+                  <span> Conclusion of business agreement based on blockchain technology </span>
+                  <span> Token issuance and website opening </span>
+                </li>
+                <li>
+                  <p class="roadmap_day">2022. 1Q</p>
+                  <span> Signing a business agreement with Secret Jenny </span>
+                  <span> Attraction of VC Investment </span>
+                  <span> Private-Sale </span>
+                  <span>
+                    First development of RACY platform<br />
+                    &#40;social media, staking, liquidity mining&#41;
+                  </span>
+                  <span> 1st listing on the exchange </span>
+                </li>
+                <li>
+                  <p class="roadmap_day">2022. 2Q</p>
+                  <span>
+                    Secondary development of RACY platform<br />
+                    &#40;influencer, linked girl, open market&#41;
+                  </span>
+                  <span> Second listing on the exchange </span>
+                </li>
+                <li>
+                  <p class="roadmap_day">2022. 3Q</p>
+                  <span>RACY platform official launch</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="cont7">
+          <div class="cont7_inner">
+            <h2>CONTACT</h2>
+            <div class="form_wrap">
+              <form>
+                <div class="name_inut">
+                  <label for="firstName">Name</label>
+                  <input id="firstName" type="text" name="name" placeholder="First Name" />
+                  <input id="lastName" type="text" name="name" placeholder="Last Name" />
+                </div>
+                <!-- <div class="phone_input">
+                                            <label for="phone">Phone</label>
+                                            <input id="phone" type="tel" name="phone" placeholder="+000&#41; 000-0000-0000">
+                                        </div> -->
+                <div class="email_input">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" placeholder="Email address" />
+                </div>
+                <div class="textarea_wrap">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write your message" style="resize: none"></textarea>
+                </div>
+                <div class="button_wrap">
+                  <button type="submit" onclick="SendEmail()" class="submit">Send an Email</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="footerIn">
+          <p class="copy">Copyright ⓒ 2021 RACY</p>
+          <p class="flogo">
+            <a href="#"><img src="images/Mobile/racy_logo.svg" alt="" /></a>
+          </p>
+          <p class="byRacy">Powered by RACY</p>
+        </div>
+      </footer>
+    </div>
+    <div id="mobile_sideMenu">
+      <div class="gnb_mobile">
+        <nav>
+          <ul>
+            <li class="active"><a href="#">PLATFORM</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">ECOSYSTEM</a></li>
+            <li><a href="#">TOKEN</a></li>
+            <li><a href="#">TEAM</a></li>
+            <li><a href="#">ROADMAP</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <address class="side_sns">
+          <ul>
+            <li>
+              <a href="https://twitter.com/RacyOfficial">
+                <img src="./images/icon/twitter_icon.svg" alt="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/racy_official">
+                <img src="./images/icon/telegram_icon.svg" alt="telegram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://medium.com/@racyofficial0">
+                <img src="./images/icon/medium_icon.svg" alt="medium" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/RACY-104583975387133">
+                <img src="./images/icon/facebook_icon.svg" alt="facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/racy_official_/">
+                <img src="./images/icon/insta_icon.svg" alt="instagram" />
+              </a>
+            </li>
+          </ul>
+        </address>
+        <div class="download_wrap">
+          <p>WHITEPAPERS</p>
+          <ul>
+            <li>
+              <a href="RACY_Platform_White_Paper_ver_eng.pdf">
+                <img src="images/Mobile/download(en)_btn.svg" alt="downloadEN" />
+              </a>
+            </li>
+            <li>
+              <a href="RACY_Platform_White_Paper_ver_kor.pdf">
+                <img src="images/Mobile/download(kr)_btn.svg" alt="downloadKR" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img class="closeBtn" src="./images/icon/close.png" alt="" />
+      </div>
+    </div>
+    <script src="LockScreen/LockScreen.js"></script>
+    <script>
+      function GetSendToken() {
+        event.preventDefault();
+        LockScreen();
+        $.ajax({
+          url: 'Home/AirdropEventRush',
+          type: 'post',
+          dataType: 'text',
+          data: {
+            SelectStr: $('#walletaddress').val(),
+          },
+          success: function (data) {
+            UnLockScreen();
+            var jsonData = JSON.parse(data);
+            if (jsonData.result) {
+              $('.num').text(jsonData.sData);
+              swal('Success', 'You have received ' + jsonData.sData + ' Racy.', 'success');
+            } else swal('Infomation', 'Sorry. This address is not winner for airdrop. Please wait for the next event.', 'info'); //else PostError(jsonData.iData, jsonData.sData);
+          },
+          error: PostPageError,
+        });
+      }
+
+      function SendEmail() {
+        if (!$('#email').val() && $('#email').val().length < 5) {
+          swal('Infomation', 'Email information is insufficient.', 'info');
+          return;
+        }
+
+        if (!$('#firstName').val() && $('#firstName').val().length < 2) {
+          swal('Infomation', 'FirstName information is insufficient.', 'info');
+          return;
+        }
+
+        if (!$('#lastName').val() && $('#lastName').val().length < 2) {
+          swal('Infomation', 'LastName information is insufficient.', 'info');
+          return;
+        }
+
+        if (!$('#message').val() && $('#message').val().length < 10) {
+          swal('Infomation', 'Message information is insufficient.', 'info');
+          return;
+        }
+
+        LockScreen();
+
+        $.ajax({
+          url: 'Home/SendEmail',
+          type: 'post',
+          dataType: 'text',
+          data: {
+            Email: $('#email').val(),
+            Name: $('#firstName').val() + ' ' + $('#lastName').val(),
+            Info: '',
+            Title: $('#firstName').val() + ' ' + $('#lastName').val(),
+            Detail: $('#message').val(),
+          },
+          success: function (data, textStatus, jQxhr) {
+            UnLockScreen();
+            var jsonData = JSON.parse(data);
+            if (jsonData.result) {
+              swal('Success', 'Email has been sent.', 'success');
+              $('#email').val('');
+              $('#firstName').val('');
+              $('#lastName').val('');
+              $('#message').val('');
+            } else PostError(jsonData.iData, jsonData.sData);
+          },
+          error: PostPageError,
+        });
+      }
+
+      function PostPageError(jqXhr, textStatus, errorThrown) {
+        UnLockScreen();
+        swal('Error', 'Data Exception', 'error');
+      }
+
+      function PostError(iData, sData) {
+        UnLockScreen();
+        swal('Error', sData, 'error');
+      }
+    </script>
+
+    <!-- notice 모달 -->
+    <script>
+      document.querySelector('.notice_wrap').style.display = 'block';
+      document.querySelector('.close_btn').addEventListener('click', () => {
+        document.querySelector('.notice_wrap').style.display = 'none';
+      });
+    </script>
+  </body>
+</html>

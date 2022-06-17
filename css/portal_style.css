@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+#container{}
+
+.portal_cont1{width: 100%; background: url(../images/protal_img/mobile/back.png) no-repeat 0 0 / cover; padding: 5.625vw 0 15.625vw 0;}
+.partal_cont1_inner{padding: 0 4.0625vw;}
+
+/* content h2 common */
+.content1 h2, .content2 h2, .content3 h2{font-size: 5vw; color: #fff; font-family: 'Jost', sans-serif; margin-bottom: 2.8125vw; font-weight: 600;}
+
+/* title_text common */
+.content1 .title_text, .content2 .title_text{font-size: 3.125vw; color: #fff; line-height: 1.4; margin-bottom: 5.625vw; text-align: justify;}
+
+/* content1 */
+.content1{margin-bottom: 15.625vw;}
+
+/* content2 */
+.content2{margin-bottom: 15.625vw;}
+.content2 .title_text{margin-bottom: 9.375vw;}
+.content2 ul{display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%;}
+.content2 ul li{width: 44.21875vw; margin-bottom: 8.4375vw;}
+
+/* content3 */
+.content3 h2{margin-bottom: 6.71875vw;}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .portal_cont1{background: url(../images/protal_img/tablet/back.png) no-repeat 0 0 / cover; padding: 0 0 13.02083vw 0;}
+    .partal_cont1_inner{padding: 0 3.125vw;}
+    
+    /* content h2 common */
+    .content1 h2, .content2 h2, .content3 h2{font-size: 3.38541vw; margin-bottom: 2.08333vw;}
+    
+    /* title_text common */
+    .content1 .title_text, .content2 .title_text{font-size: 2.08333vw; margin-bottom: 2.86458vw;}
+    
+    /* content1 */
+    .content1{margin-bottom: 11.71875vw;}
+    
+    /* content2 */
+    .content2{margin-bottom: 11.71875vw;}
+    .content2 .title_text{margin-bottom: 4.16666vw;}
+    .content2 ul{display: flex; flex-wrap: nowrap; justify-content: space-between; width: 100%; margin: 0 auto;}
+    .content2 ul li{width: 21.61458vw; margin-bottom: 0;}
+    
+    /* content3 */    
+    .content3 h2{margin-bottom: 3.64583vw;}
+    .content3 .cont3_img_wrap{margin-bottom: 7.8125vw;}
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    #container{padding-top: 100px;}
+    .portal_cont1{background: url(../images/protal_img/web/back.png) no-repeat 0 0 / cover; padding: 0 0 100px 0;}
+    .partal_cont1_inner{width: 1200px; margin: 0 auto; padding: 0 20px;}
+    
+    /* content h2 common */
+    .content1 h2, .content2 h2, .content3 h2{font-size: 30px; margin-bottom: 14px;}
+    
+    /* title_text common */
+    .content1 .title_text, .content2 .title_text{font-size: 18px; margin-bottom: 42px;}
+    
+    /* content1 */
+    .content1{margin-bottom: 100px;}
+    
+    /* content2 */
+    .content2{margin-bottom: 100px;}
+    .content2 .title_text{margin-bottom: 50px;}
+    .content2 ul{display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%;}
+    .content2 ul li{width: 224px; margin-bottom: 54px;}
+    
+    /* content3 */
+    .content3 h2{margin-bottom: 30px;}
+
+
+
+
+
+}
+
